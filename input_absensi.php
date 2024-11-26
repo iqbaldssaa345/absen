@@ -16,5 +16,3 @@ echo "Absensi berhasil dicatat!";
 }
 
 $siswa = $pdo->query("SELECT * FROM siswa")->fetchAll(PDO::FETCH_ASSOC);
-?>
-
